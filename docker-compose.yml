@@ -1,0 +1,43 @@
+version: '3'
+services:
+  app:
+    platform: linux/x86_64
+    build:
+      context: .
+      target: local
+    depends_on:
+      - strapiDB
+    env_file: .env
+    volumes:
+      - ./:/app/
+      - /app/node_modules
+    ports:
+      - '1337:1337'
+    networks:
+      - strapi
+      
+  strapiDB:
+    container_name: strapi_db
+    platform: linux/amd64 #for platform error on Apple M1 chips
+    restart: unless-stopped
+    image: postgres:12.0-alpine
+    env_file: .env
+    environment:
+      POSTGRES_USER: ${PGUSER}
+      POSTGRES_PASSWORD: ${PGPASSWORD}
+      POSTGRES_DB: ${PGDATABASE}
+    volumes:
+      - strapi-data:/var/lib/postgresql/data/ #using a volume
+
+    ports:
+      - '5432:5432'
+    networks:
+      - strapi
+
+volumes:
+  strapi-data:
+
+networks:
+  strapi:
+    name: Strapi
+    driver: bridge
