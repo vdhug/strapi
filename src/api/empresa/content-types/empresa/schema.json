@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "configuracoes",
+  "collectionName": "empresas",
   "info": {
-    "singularName": "configuracao",
-    "pluralName": "configuracoes",
-    "displayName": "Configuracao",
-    "description": ""
+    "singularName": "empresa",
+    "pluralName": "empresas",
+    "displayName": "A Empresa"
   },
   "options": {
     "draftAndPublish": true

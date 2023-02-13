@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_numeros_numeros",
+  "info": {
+    "displayName": "Numeros"
+  },
+  "options": {},
+  "attributes": {
+    "Clientes": {
+      "type": "integer"
+    },
+    "Projetos": {
+      "type": "integer"
+    },
+    "Premios": {
+      "type": "integer"
+    },
+    "Funcionarios": {
+      "type": "integer"
+    }
+  }
+}

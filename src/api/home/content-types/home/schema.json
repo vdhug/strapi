@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Slider": {
+      "displayName": "Slide",
+      "type": "component",
+      "repeatable": true,
+      "component": "slide.slide"
+    },
+    "Numeros": {
+      "displayName": "Numeros",
+      "type": "component",
+      "repeatable": false,
+      "component": "numeros.numeros"
+    }
+  }
+}
