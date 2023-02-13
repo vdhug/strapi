@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "configuracoes",
+  "info": {
+    "singularName": "configuracao",
+    "pluralName": "configuracoes",
+    "displayName": "Configuracao",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "endereco": {
+      "type": "string"
+    },
+    "horario": {
+      "type": "string"
+    },
+    "telefone": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}
