@@ -1,8 +1,13 @@
 {
   "collectionName": "components_sobre_atributos_sobre_atributos",
   "info": {
-    "displayName": "Sobre Atributos"
+    "displayName": "Sobre Atributos",
+    "description": ""
   },
   "options": {},
-  "attributes": {}
+  "attributes": {
+    "Descricao": {
+      "type": "string"
+    }
+  }
 }
