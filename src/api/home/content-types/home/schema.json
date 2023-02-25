@@ -18,12 +18,6 @@
       "repeatable": true,
       "component": "slide.slide"
     },
-    "Numeros": {
-      "displayName": "Numeros",
-      "type": "component",
-      "repeatable": false,
-      "component": "numeros.numeros"
-    },
     "Escolha": {
       "displayName": "Escolha",
       "type": "component",

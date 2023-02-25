@@ -1,7 +1,8 @@
 {
   "collectionName": "components_numeros_numeros",
   "info": {
-    "displayName": "Numeros"
+    "displayName": "Numeros",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,7 +12,7 @@
     "Projetos": {
       "type": "integer"
     },
-    "Premios": {
+    "Estados": {
       "type": "integer"
     },
     "Funcionarios": {
