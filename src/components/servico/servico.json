@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_servico_servicos",
+  "info": {
+    "displayName": "Servico"
+  },
+  "options": {},
+  "attributes": {
+    "Nome": {
+      "type": "string"
+    },
+    "Descricao": {
+      "type": "text"
+    },
+    "Icone": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_testemunhos_testemunhos",
+  "info": {
+    "displayName": "Testemunhos"
+  },
+  "options": {},
+  "attributes": {
+    "Descricao": {
+      "type": "text"
+    },
+    "Cliente": {
+      "type": "string"
+    },
+    "Profissao": {
+      "type": "string"
+    },
+    "Foto": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

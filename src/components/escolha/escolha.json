@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_escolha_escolhas",
+  "info": {
+    "displayName": "Escolha"
+  },
+  "options": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Descricao": {
+      "type": "text"
+    }
+  }
+}
